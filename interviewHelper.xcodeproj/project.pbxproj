@@ -7,20 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA5E5FF129DAFD0700F0FD8F /* OnbordingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5E5FF029DAFD0700F0FD8F /* OnbordingViewController.swift */; };
+		DA5E5FF329DAFD1000F0FD8F /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA5E5FF229DAFD1000F0FD8F /* Onboarding.storyboard */; };
+		DA5E5FF829DB01F200F0FD8F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5E5FF729DB01F200F0FD8F /* MainViewController.swift */; };
+		DA5E5FFA29DB01F800F0FD8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA5E5FF929DB01F800F0FD8F /* Main.storyboard */; };
+		DA5E600029DB02D400F0FD8F /* Question.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA5E5FFF29DB02D400F0FD8F /* Question.storyboard */; };
+		DA5E600329DB02F800F0FD8F /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5E600229DB02F800F0FD8F /* QuestionViewController.swift */; };
+		DA5E600729DB03A500F0FD8F /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5E600629DB03A500F0FD8F /* UserDefaultsManager.swift */; };
+		DA5E600A29DB176900F0FD8F /* QuestionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5E600929DB176900F0FD8F /* QuestionCollectionViewCell.swift */; };
+		DAA3087229DD7BA100A6F1FD /* QuestionsEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA3087129DD7BA100A6F1FD /* QuestionsEnum.swift */; };
 		DAC47A3429DAFA4F000B66D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC47A3329DAFA4F000B66D1 /* AppDelegate.swift */; };
 		DAC47A3629DAFA4F000B66D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC47A3529DAFA4F000B66D1 /* SceneDelegate.swift */; };
-		DAC47A3829DAFA4F000B66D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC47A3729DAFA4F000B66D1 /* ViewController.swift */; };
-		DAC47A3B29DAFA4F000B66D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC47A3929DAFA4F000B66D1 /* Main.storyboard */; };
 		DAC47A3D29DAFA50000B66D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAC47A3C29DAFA50000B66D1 /* Assets.xcassets */; };
 		DAC47A4029DAFA50000B66D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAC47A3E29DAFA50000B66D1 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA5E5FF029DAFD0700F0FD8F /* OnbordingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnbordingViewController.swift; sourceTree = "<group>"; };
+		DA5E5FF229DAFD1000F0FD8F /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		DA5E5FF729DB01F200F0FD8F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		DA5E5FF929DB01F800F0FD8F /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DA5E5FFF29DB02D400F0FD8F /* Question.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Question.storyboard; sourceTree = "<group>"; };
+		DA5E600229DB02F800F0FD8F /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		DA5E600629DB03A500F0FD8F /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		DA5E600929DB176900F0FD8F /* QuestionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionCollectionViewCell.swift; sourceTree = "<group>"; };
+		DAA3087129DD7BA100A6F1FD /* QuestionsEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsEnum.swift; sourceTree = "<group>"; };
 		DAC47A3029DAFA4F000B66D1 /* interviewHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = interviewHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAC47A3329DAFA4F000B66D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAC47A3529DAFA4F000B66D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DAC47A3729DAFA4F000B66D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DAC47A3A29DAFA4F000B66D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DAC47A3C29DAFA50000B66D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAC47A3F29DAFA50000B66D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAC47A4129DAFA50000B66D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,6 +51,117 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA5E5FEA29DAFCBD00F0FD8F /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				DA5E5FFB29DB02A600F0FD8F /* Question */,
+				DA5E5FF429DB01D300F0FD8F /* Main */,
+				DA5E5FEC29DAFCE800F0FD8F /* Onboarding */,
+			);
+			path = Groups;
+			sourceTree = "<group>";
+		};
+		DA5E5FEC29DAFCE800F0FD8F /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				DA5E5FEE29DAFCF400F0FD8F /* Storyboard */,
+				DA5E5FED29DAFCEF00F0FD8F /* ViewController */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		DA5E5FED29DAFCEF00F0FD8F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DA5E5FF029DAFD0700F0FD8F /* OnbordingViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		DA5E5FEE29DAFCF400F0FD8F /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				DA5E5FF229DAFD1000F0FD8F /* Onboarding.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		DA5E5FF429DB01D300F0FD8F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				DA5E5FF629DB01E300F0FD8F /* Storyboard */,
+				DA5E5FF529DB01DE00F0FD8F /* ViewController */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		DA5E5FF529DB01DE00F0FD8F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DA5E5FF729DB01F200F0FD8F /* MainViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		DA5E5FF629DB01E300F0FD8F /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				DA5E5FF929DB01F800F0FD8F /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		DA5E5FFB29DB02A600F0FD8F /* Question */ = {
+			isa = PBXGroup;
+			children = (
+				DAA3086F29DD7B7600A6F1FD /* Enum */,
+				DA5E600829DB16FD00F0FD8F /* Cell */,
+				DA5E5FFD29DB02C500F0FD8F /* Storyboard */,
+				DA5E5FFC29DB02BF00F0FD8F /* ViewController */,
+			);
+			path = Question;
+			sourceTree = "<group>";
+		};
+		DA5E5FFC29DB02BF00F0FD8F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DA5E600229DB02F800F0FD8F /* QuestionViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		DA5E5FFD29DB02C500F0FD8F /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				DA5E5FFF29DB02D400F0FD8F /* Question.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		DA5E600529DB038A00F0FD8F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DA5E600629DB03A500F0FD8F /* UserDefaultsManager.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		DA5E600829DB16FD00F0FD8F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DA5E600929DB176900F0FD8F /* QuestionCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		DAA3086F29DD7B7600A6F1FD /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				DAA3087129DD7BA100A6F1FD /* QuestionsEnum.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
 		DAC47A2729DAFA4F000B66D1 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +181,13 @@
 		DAC47A3229DAFA4F000B66D1 /* interviewHelper */ = {
 			isa = PBXGroup;
 			children = (
+				DA5E5FEA29DAFCBD00F0FD8F /* Groups */,
 				DAC47A3329DAFA4F000B66D1 /* AppDelegate.swift */,
 				DAC47A3529DAFA4F000B66D1 /* SceneDelegate.swift */,
-				DAC47A3729DAFA4F000B66D1 /* ViewController.swift */,
-				DAC47A3929DAFA4F000B66D1 /* Main.storyboard */,
 				DAC47A3C29DAFA50000B66D1 /* Assets.xcassets */,
 				DAC47A3E29DAFA50000B66D1 /* LaunchScreen.storyboard */,
 				DAC47A4129DAFA50000B66D1 /* Info.plist */,
+				DA5E600529DB038A00F0FD8F /* Core */,
 			);
 			path = interviewHelper;
 			sourceTree = "<group>";
@@ -126,8 +251,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAC47A4029DAFA50000B66D1 /* LaunchScreen.storyboard in Resources */,
+				DA5E600029DB02D400F0FD8F /* Question.storyboard in Resources */,
 				DAC47A3D29DAFA50000B66D1 /* Assets.xcassets in Resources */,
-				DAC47A3B29DAFA4F000B66D1 /* Main.storyboard in Resources */,
+				DA5E5FF329DAFD1000F0FD8F /* Onboarding.storyboard in Resources */,
+				DA5E5FFA29DB01F800F0FD8F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +265,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAC47A3829DAFA4F000B66D1 /* ViewController.swift in Sources */,
+				DA5E5FF129DAFD0700F0FD8F /* OnbordingViewController.swift in Sources */,
+				DA5E600329DB02F800F0FD8F /* QuestionViewController.swift in Sources */,
+				DA5E600A29DB176900F0FD8F /* QuestionCollectionViewCell.swift in Sources */,
+				DA5E600729DB03A500F0FD8F /* UserDefaultsManager.swift in Sources */,
 				DAC47A3429DAFA4F000B66D1 /* AppDelegate.swift in Sources */,
 				DAC47A3629DAFA4F000B66D1 /* SceneDelegate.swift in Sources */,
+				DAA3087229DD7BA100A6F1FD /* QuestionsEnum.swift in Sources */,
+				DA5E5FF829DB01F200F0FD8F /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DAC47A3929DAFA4F000B66D1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DAC47A3A29DAFA4F000B66D1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DAC47A3E29DAFA50000B66D1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +340,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +394,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -292,9 +416,9 @@
 				INFOPLIST_FILE = interviewHelper/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,9 +444,9 @@
 				INFOPLIST_FILE = interviewHelper/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
