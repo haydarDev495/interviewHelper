@@ -31,10 +31,10 @@
                                 </connections>
                             </button>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="dLv-jd-IeK">
-                                <rect key="frame" x="0.0" y="156" width="375" height="656"/>
+                                <rect key="frame" x="0.0" y="126" width="375" height="686"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="3nt-Ng-FDj">
-                                    <size key="itemSize" width="300" height="53"/>
+                                    <size key="itemSize" width="300" height="45"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
@@ -50,22 +50,32 @@
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QRC-nP-e0Y">
                                                     <rect key="frame" x="0.0" y="0.0" width="353" height="53"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <integer key="value" value="16"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
                                                 </view>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B5d-KV-Con">
-                                                    <rect key="frame" x="5" y="18" width="32" height="17"/>
+                                                    <rect key="frame" x="10" y="18" width="32" height="17"/>
                                                     <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="13"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="B5d-KV-Con" firstAttribute="leading" secondItem="M6K-Iz-vo0" secondAttribute="leading" constant="5" id="Ap1-fr-zAj"/>
+                                                <constraint firstItem="B5d-KV-Con" firstAttribute="leading" secondItem="M6K-Iz-vo0" secondAttribute="leading" constant="10" id="Ap1-fr-zAj"/>
                                                 <constraint firstAttribute="bottom" secondItem="QRC-nP-e0Y" secondAttribute="bottom" id="krQ-1a-xMg"/>
                                                 <constraint firstAttribute="trailing" secondItem="QRC-nP-e0Y" secondAttribute="trailing" id="mjS-TN-cv3"/>
                                                 <constraint firstItem="QRC-nP-e0Y" firstAttribute="leading" secondItem="M6K-Iz-vo0" secondAttribute="leading" id="s2z-bx-T2B"/>
                                                 <constraint firstItem="B5d-KV-Con" firstAttribute="centerY" secondItem="M6K-Iz-vo0" secondAttribute="centerY" id="tfc-jy-4BU"/>
                                                 <constraint firstItem="QRC-nP-e0Y" firstAttribute="top" secondItem="M6K-Iz-vo0" secondAttribute="top" id="vxv-DD-pdD"/>
                                             </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <integer key="value" value="16"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="353" height="53"/>
                                         <connections>
@@ -79,7 +89,7 @@
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="dLv-jd-IeK" firstAttribute="top" secondItem="yB1-CX-VGa" secondAttribute="bottom" constant="50" id="6DL-Bu-NN8"/>
+                            <constraint firstItem="dLv-jd-IeK" firstAttribute="top" secondItem="yB1-CX-VGa" secondAttribute="bottom" constant="20" id="6DL-Bu-NN8"/>
                             <constraint firstItem="dLv-jd-IeK" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="JsO-ua-7hU"/>
                             <constraint firstAttribute="bottom" secondItem="dLv-jd-IeK" secondAttribute="bottom" id="huf-Ll-6pu"/>
                             <constraint firstItem="dLv-jd-IeK" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="pTJ-bp-xMR"/>

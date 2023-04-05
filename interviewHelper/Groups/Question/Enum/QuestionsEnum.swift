@@ -7,17 +7,23 @@
 
 import Foundation
 
+/*
+ case eigt = "Сохранение данных (CoreData, Realm, UserDefault, etc.)"
+ case nine = "Запросы и работа с данными которые получаем с сервера (URLSession, Alamofire, Codable)"
+ */
+
+
 enum QuestionsEnum: String, CaseIterable {
     
     case one = "Жизненный цикл ViewController'a"
     case two = "ООП"
     case three = "Разница между класом и структом"
     case four = "Протоколы"
-    case five = "Способы передачи данных между контроллерами"
+    case five = "Способы передачи данных"
     case six = "Storyboard или xib"
     case seven = "AutoLayout"
-    case eigt = "Сохранение данных (CoreData, Realm, UserDefault, etc.)"
-    case nine = "Запросы и работа с данными которые получаем с сервера (URLSession, Alamofire, Codable)"
+    case eigt = "Сохранение данных (CoreData)"
+    case nine = "(URLSession, Alamofire, Codable)"
     case ten = "Замыкания (closures)"
     case eleven = "Optionals"
     case twelve = "Extensions"
@@ -74,3 +80,4 @@ enum QuestionsEnum: String, CaseIterable {
         }
     }
 }
+

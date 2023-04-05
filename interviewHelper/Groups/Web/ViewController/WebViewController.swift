@@ -7,10 +7,12 @@
 
 import UIKit
 import WebKit
+import Lottie
 
 class WebViewController: UIViewController {
 
     // - UI
+    @IBOutlet weak var progressView: LottieAnimationView!
     @IBOutlet weak var webView: UIView!
     
     // - WebView
@@ -21,7 +23,7 @@ class WebViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        configureWebView()
+        configure()
     }
     
     override func viewWillLayoutSubviews() {
@@ -30,27 +32,38 @@ class WebViewController: UIViewController {
     }
     
     @IBAction func closeButtonAction() {
-        dismiss(animated: true)
+        navigationController?.popViewController(animated: true)
+    }
+    
+}
+
+// MARK: -
+// MARK: Configure
+private extension WebViewController {
+    func configure() {
+        setupAnimation()
+        configureWebView()
+    }
+    
+    func setupAnimation() {
+        progressView.play()
+        progressView.loopMode = .loop
     }
     
     func configureWebView() {
-//        closeButton.layer.cornerRadius = 12
-//        closeButton.layer.masksToBounds = true
         customWebView.isHidden = true
         customWebView.navigationDelegate = self
         customWebView.load(data.answer)
         webView.addSubview(customWebView)
     }
-
-
 }
-
 //MARK: -
 //MARK: - WKNavigationDelegate
 extension WebViewController: WKNavigationDelegate {
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
         customWebView.isHidden = false
-//        activityIndicator.stopAnimating()
+        progressView.stop()
+        progressView.isHidden = true
     }
 }
 

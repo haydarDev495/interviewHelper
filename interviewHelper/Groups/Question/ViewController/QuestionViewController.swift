@@ -28,6 +28,7 @@ class QuestionViewController: UIViewController {
 // MARK: -
 // MARK: Configure
 private extension QuestionViewController {
+    
     func configure() {
         configureCollectionViewCell()
     }
@@ -39,15 +40,16 @@ private extension QuestionViewController {
     
     func showWebScreen(data: QuestionsEnum) {
         let vc = UIStoryboard(name: "Web", bundle: nil).instantiateViewController(identifier: "WebViewController") as! WebViewController
-        vc.modalPresentationStyle = .fullScreen
         vc.data = data
-        present(vc, animated: true)
+        navigationController?.pushViewController(vc, animated: true)
     }
+    
 }
 
 // MARK: -
 // MARK: CollectionViewDataSource
 extension QuestionViewController: UICollectionViewDataSource {
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         questions.count
     }
@@ -63,6 +65,7 @@ extension QuestionViewController: UICollectionViewDataSource {
 // MARK: -
 // MARK: CollectionViewDelegate
 extension QuestionViewController: UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
+    
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         showWebScreen(data: questions[indexPath.item])
     }

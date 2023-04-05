@@ -14,6 +14,12 @@ class QuestionCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var gradientView: UIView!
     @IBOutlet weak var nameLabel: UILabel!
     
+    // - Gradient
+    private let gradient = CAGradientLayer()
+    
+    // - Shape
+    private let shape = CAShapeLayer()
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         configure()
@@ -22,6 +28,7 @@ class QuestionCollectionViewCell: UICollectionViewCell {
     func setupUI(name: QuestionsEnum) {
         nameLabel.text = name.rawValue
     }
+    
 }
 
 // MARK: -
@@ -32,6 +39,8 @@ private extension QuestionCollectionViewCell {
     }
     
     func configureGradientView() {
-        gradientView.layer.cornerRadius = 20
+        gradientView.layer.borderWidth = 2
+        gradientView.layer.borderColor = UIColor(red: 1.00, green: 0.75, blue: 0.12, alpha: 1.00).cgColor
     }
+    
 }

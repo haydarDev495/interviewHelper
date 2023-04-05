@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6C5108389B5E1388063AD01607F23CFB"
-               BuildableName = "Pods-interviewHelper.framework"
+               BuildableName = "Pods_interviewHelper.framework"
                BlueprintName = "Pods-interviewHelper"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
