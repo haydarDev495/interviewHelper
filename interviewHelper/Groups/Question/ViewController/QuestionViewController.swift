@@ -36,6 +36,13 @@ private extension QuestionViewController {
         collectionView.dataSource = self
         collectionView.delegate = self
     }
+    
+    func showWebScreen(data: QuestionsEnum) {
+        let vc = UIStoryboard(name: "Web", bundle: nil).instantiateViewController(identifier: "WebViewController") as! WebViewController
+        vc.modalPresentationStyle = .fullScreen
+        vc.data = data
+        present(vc, animated: true)
+    }
 }
 
 // MARK: -
@@ -56,7 +63,8 @@ extension QuestionViewController: UICollectionViewDataSource {
 // MARK: -
 // MARK: CollectionViewDelegate
 extension QuestionViewController: UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
-//    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-//        return CGSize(width: 280, height: 34)
-//    }
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        showWebScreen(data: questions[indexPath.item])
+    }
+
 }
