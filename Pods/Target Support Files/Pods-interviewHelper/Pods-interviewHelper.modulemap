@@ -1,0 +1,6 @@
+framework module Pods_interviewHelper {
+  umbrella header "Pods-interviewHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}
